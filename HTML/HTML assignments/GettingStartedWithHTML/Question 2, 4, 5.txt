@@ -1,0 +1,26 @@
+Q2) Purpose of comment  in HTML:-
+Ans2)  Comments are written in code to provide explanation regarding the code and these are not visible to the user. Those content which is commented is not displayed in the browser. Comments which are used for HTML file are known as HTML comments. Anything written between these tags will be ignored by the browser, so comments will not be visible on the webpage.
+Comments of any code make code easy to understand and increase readability of code.
+We can add comment in our HTML file by using <!-- …. -->  tag. 
+Example- <!--   <p>There is some text</p>  
+                             <p>There is second text</p> -->  
+
+
+ Q4) Short note on tag and element:-
+Ans4) TAG:- Tags are the starting and ending parts of an HTML element. They start with < symbol and end with > symbol. Whatever written inside < and > are called tags. HTML tags are almost like keywords where every single tag has unique meaning.
+Example:-<b> This is some content </b>
+Here <b> is starting tag and </b> is closing tag.
+HTML element:- An html element is defined by a start tag, some content and a closing tag.
+<tagname>Content goes here...</tagname>
+Examples of some HTML elements:
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+
+Q5) DOCTYPE declaration in HTML:-
+Ans5) The HTML document type declaration, also known as DOCTYPE, is the first line of code required in every HTML or XHTML document. The DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in. This ensures that the web page is parsed the same way by different web browsers.
+Example- <!DOCTYPE html>
+
+
+
+
