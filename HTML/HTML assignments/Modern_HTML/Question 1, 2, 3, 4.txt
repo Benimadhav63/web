@@ -1,0 +1,71 @@
+Q1) List out the features of HTML.
+Ans1) Features of HTML:-
+Intro of audio and video: 
+     Audio and Video tags are the two major addition to HTML5. It allows developers to embed a video or audio on their website. HTML5 video can use CSS and CSS3 to style the video tag. You can change the border, opacity, reflections, gradients, transitions, transformations, and even animations. 
+Vector Graphics:
+     This is a new addition to the revised version which has hugely impacted the use of Adobe Flash in websites. It can be used to draw graphics with various shapes and colors via scripting usually JS. 
+Header and Footer:
+     With these new tags, there is no longer a need to identify the two elements with a <div> tag. Footer is placed at the end of the web page while Header is placed at the start of the web page. By using <header> and <footer> HTML5 elements, the browser will know what to load first and what to load later.
+Figure and Figcaption:
+     HTML5 allows to use a <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo. The <figcaption> tag defines a caption for a <figure> element.
+Nav tag:
+     The <nav> tag defines a set of navigation links. It is used for the part of an internet site that links to different pages at the website. The hyperlinks can be organized through a number of approaches. Common examples of the nav elements are menus, tables, contents, and indexes. 
+Progress tag:
+     The progress tag is used to check the progress of a task during the execution. Progress tag can be used with the conjunction of JavaScript.
+Placeholder_Attribute:
+The placeholder attribute specifies a short hint that describes the expected value of an input field/text area. The short hint is displayed in the field before the user enters a value.
+Email_Attribute:
+When the input type in the form set as email, then the browser gets the instruction from the code to write a valid format email. The input email id is automatically validated to check the format of the email id is correct or not.
+
+
+Q2) What are HTML entities? List out 5 commonly used HTML entities.
+Ans2) HTML entities:- An HTML entity is a piece of text ("string") that begins with an ampersand (&) and ends with a semicolon (;). Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces). You can also use them in place of other characters that are difficult to type with a standard keyboard.
+Five commonly used HTML entities:-
+Character	Entity	Note
+&	&amp;	Interpreted as the beginning of an entity or character reference.
+<	&lt;	Interpreted as the beginning of a tag
+>	&gt;	Interpreted as the ending of a tag
+"	&quot;	Interpreted as the beginning and end of an attribute's value.
+	&nbsp;	Interpreted as the non breaking space.
+
+
+
+Q3) Define accessibility in the context of web development. Discuss why it’s essential to create accessible websites and how it benefits different user groups.
+Ans3) Accessibility is the practice of making your websites usable by as many people as possible. We traditionally think of this as being about people with disabilities, but the practice of making sites accessible also benefits other groups such as those using mobile devices, or those with slow network connections.
+You might also think of accessibility as treating everyone the same, and giving them equal opportunities, no matter what their ability or circumstances. Just as it is wrong to exclude someone from a physical building because they are in a wheelchair (modern public buildings generally have wheelchair ramps or elevators), it is also not right to exclude someone from a website because they have a visual impairment. We are all different, but we are all human, and therefore have the same human rights.
+Accessibility is the right thing to do. Providing accessible sites is part of the law in some countries, which can open up some significant markets that otherwise would not be able to use your services or buy your products.
+Following are the reasons why accessibility is essential:-
+1) IT’S INCLUSIVE AND PROVIDES EQUAL ACCESS TO EVERYONE, ESPECIALLY PEOPLE WITH DISABILITIES
+In 2011, the National Center for Education Statistics(opens in new window) found that 11% of undergraduate students reported having a disability, and recent data(opens in new window) found that almost 13% of the U.S. population has a disability. Potentially excluding such a substantial percentage of the population would be in contrast to UNCG’s mission to be “an inclusive, collaborative, and responsive institution making a difference in the lives of students and the communities it serves.”
+2) IT PROMOTES USABILITY
+When we consider accessibility in our online content design, it also enhances usability, and often results in a more intuitive user experience. Online content that meets accessibility requirements is likely to be more user-friendly for everyone. People without disabilities can benefit from accessible design, particularly when they are in limiting situations such as:
+•	Reading captions for a video when in noisy or quiet environments
+•	Adjusting screen brightness in a dark or bright room
+•	Reading a transcript of a presentation to reinforce the information learned
+•	Using the keyboard to navigate a website when the mouse is not working
+3) IT’S THE RIGHT THING TO DO
+Accessibility allows people with disabilities to actively participate in our society. In addition to being leaders of innovation and progress, institutions of higher education are also regarded as having a certain level of responsibility to society. Accessibility supports this notion as well as UNCG’s mission.
+4) IT’S THE LAW
+There are many federal and state laws that require higher ed institutions to make their electronic and web content accessible to people with disabilities. Violating these laws can result in a loss of funding (including federal financial aid funds), as some universities have faced legal action for web accessibility non-compliance.
+Benefits of web accessibility to different user groups:
+1) Providing text alternatives to visual content: (e.g., providing ALT tags for images) benefits anyone who doesn't have immediate access to graphics. While this group includes people with blindness, it also includes those sighted computer users who surf the web using text-based browsers such as Lynx. 
+2) Providing text alternatives to audio content: (e.g., including captions with multimedia) allows access to people with limited or no access to sound output. This includes people who are deaf or hard of hearing, but it additionally includes anyone trying to access the content in a noisy environment and people with missing, broken, or otherwise inadequate sound hardware.
+3) Avoiding use of color to convey essential information: ensures that the information is accessible to those who can't reliably discriminate between colors. This group includes people with blindness and color blindness, but it also includes people using monochrome monitors and handheld computers with green screens. It also benefits people who are using voice web services, as described above.
+4) Using high-contrast foreground/background: colors benefits those with visual impairments, but most other users will also enjoy reading your site without squinting or experiencing eye fatigue.
+5) Providing a clear, simple design: including a consistent and intuitive navigational mechanism, benefits a variety of users with disabilities, but the result of doing so is a website where users can easily and efficiently find the information they're looking for. Clearly, this is a benefit to all users.
+
+
+
+Q4) List any 3 ways which help us in improving the accessibility of HTML.
+Ans4) Following are the ways by which we can improve web accessibility of HTML:-
+1)Structure and organize with headers:
+Headers are a great resource that, when used correctly, structure and organize content on a webpage. This allows all users to easily navigate your web pages, and even improve your SEO score making it easier for you to generate more traffic to your site.
+2) Assign alt tags for images:
+Images on a webpage provide great value to users. Nonetheless, they can create barriers for users with limited or impaired vision. Therefore, assigning alt tags to images will provide a description of the images allowing users to understand the image through the use of a screen reader. 
+3) Use descriptive title for links:
+Using descriptive titles for links will make it easier for those who rely on screen readers to navigate your website to understand the purpose of the link and where they will be redirected.
+
+
+
+
+
