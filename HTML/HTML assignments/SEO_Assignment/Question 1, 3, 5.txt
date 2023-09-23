@@ -1,0 +1,69 @@
+Q1) What is SEO and explain the importance of SEO?
+Ans1) SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines whenever people search for:
+
+i)Products you sell.
+ii)Services you provide.
+iii)Information on topics in which you have deep expertise and/or experience.
+iv)The better visibility your pages have in search results, the more likely you are to be found and clicked on. Ultimately, the goal of search engine optimization is to help attract website v)visitors who will become customers, clients or an audience that keeps coming back.
+
+Importance of SEO:-
+SEO is a critical marketing channel. First, and foremost: organic search delivers 53% of all website traffic.
+That’s one big reason why the global SEO industry is forecast to reach a staggering $122.11 billion by 2028. SEO drives real business results for brands, businesses and organizations of all sizes.
+Whenever people want to go somewhere, do something, find information, research or buy a product/service – their journey typically begins with a search. 
+But today, search is incredibly fragmented. Users may search on traditional web search engines (e.g., Google, Microsoft Bing), social platforms (e.g., YouTube, TikTok) or retailer websites (e.g., Amazon). 
+In fact, 61% of U.S. ﻿online shoppers start their product search on Amazon, compared to 49% who start on a search engine like Google. Also of note from that same research: 
+
+32% start on Walmart.com.
+20% start on YouTube.
+19% start on Facebook.
+15% start on Instagram.
+11% start on TikTok.
+_________________________________________________________________________________________________________________________________________
+
+Q3) What are the benefits of using meta tags?
+Ans3) Meta tags, otherwise known as metadata tags, contain information about your website or page. They tell Google bots which crawl through millions, if not billions, of websites each and every day.
+These bots decide on the relevance of your website in the context to what people are searching for online.
+Meta tags have been a huge part of search engine history since the dawn of the internet era.
+They were once valued as a top factor in SEO rankings – until people started exploiting meta tags to reach the top of the SERPs.
+
+Benefits of using meta tags:-
+1. Meta tags provides relevancy
+Meta tags show search engines how relevant your page is to the user’s query.
+A query can be anything from “Thai restaurant near me” to “Benefits of jogging every morning”. As the information in the meta title tag indicates that the page is of interest to the user, the search engine will deliver it on its results page, depending on the authority of the page.
+
+2. You save time without writing too much
+As meta tags are in the HTML of your website, they are not meant to be long copy.
+They need to be short and sweet. You do not want excessive amounts of code on your website.
+These are simple and to the point, whether you are writing a meta title or a meta description. These metadata are usually limited to a few words.
+
+3. They optimise your site without making things untidy
+Meta tags do not affect the actual, visible content of your website in any way.
+This means that they do not take up space which could be used for selling products or services, encouraging social engagement or presenting ideas.
+
+4. They can be quickly implemented
+There is no need for keyword research and strategy with constant updates on your search engine optimisation as there are no keywords for meta tags.
+This means you’ll save time from carrying out long hours of keyword research just to know the ‘right’ keywords to add into your meta tags.
+
+5. They allow you to track your metrics better
+You want people who are looking for your website to find it, right?
+Or, at least, you want people who are searching for the information your page offers to find it. This is one of the many benefits of meta tags.
+_________________________________________________________________________________________________________________________________________
+
+Q5) Define Favicon and give an illustrative example
+Ans5) A favicon is a small file containing the one or more icons which are used to represent the website or a blog. It is also known as a tab icon, website icon, URL icon, or a bookmark icon.
+This icon is actually displayed on the address bar, browser's tab, browser history, bookmark bar, etc. The image of a favicon is in .ico file format. There are various file formats, but .ico format is supported by all the browsers.
+
+Example-
+<html>  
+<head>  
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+</head>  
+<title> Example of favicon</title>  
+<body>  
+<br>  
+<br>  
+<p align="center">  
+<img src="download.jpg">  
+</p>  
+</body>  
+</html>  
