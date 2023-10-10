@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 5</title>
+    <style>
+        body {
+            margin:0;
+            margin-top: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        .mainContainer {
+            width:1460px;
+            height:1100px;
+            background-color: #fff;
+            display: flex;   
+            justify-content: end;         
+        }
+        .div1 {
+            width:680px;
+            height:1036px;
+            /* background-color: #d7cfcf; */
+            padding-top:40px;
+            padding-right:40px;
+        }
+        .div2 {
+            width:696px;
+            height: 1036px;
+            /* background-color: #fbb7b7; */
+        }
+        img {
+            width: 696px;
+            height: 1036px;
+        }
+        .div1-1 {
+            width: 100%;
+            height: 82px;
+            /* background-color: #aba5a5; */
+            display: flex;
+            justify-content: space-between;
+        }
+        .div1-1-1 {
+            width: 40%;
+            height: 82px;
+            /* background-color: #7fe3d0; */
+        }
+        .div1-1-2 {
+            width: 60%;
+            height: 82px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .div1-1-2-1 {
+            width: 100%;
+            height: 30px; 
+            display: flex;
+            justify-content: end;           
+        }
+        .div1-1-2-2 {
+            width: 100%;
+            height: 30px;
+            display: flex;
+            justify-content: end; 
+            
+        }
+        .anchor1 {
+            text-decoration: none;
+            margin-left: 25px;
+            color:rgb(92, 90, 90);
+            border-radius: 10px;
+        }
+        .button1 {
+            margin-left: 20px;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        .div1-2 {
+            width:60%;
+            height: 100px;
+            /* background-color: #a5a5fa; */
+            margin-top: 70px;
+        }
+        .div1-3 {
+            width:100%;
+            height: 45px;
+            /* background-color: #f8a2e5; */
+            margin-top: 70px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .route {
+            margin-top:60px;
+            width:100%;
+            height: 118px;
+            /* background-color: #efefa5; */
+            display: flex;
+            border:1px solid rgb(92, 90, 90);
+            border-radius: 10px;
+
+        }
+        .time {
+            margin-top:40px;
+            width:100%;
+            height: 118px;
+            /* background-color: #efefa5; */
+            display: flex;
+            border:1px solid rgb(92, 90, 90);
+            border-radius: 10px;
+        }
+        .searchTrainButton {
+            margin-top:60px;
+            width:100%;
+            height: 102px;
+            background-color: #35cd35;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+        .from {
+            width: 40%;
+            height: 100%;
+            /* border:2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bidirectionalArrow {
+            width:20%;
+            height: 100%;
+            /* border:2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .destination {
+            width: 40%;
+            height: 100%;
+            /* border:2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .date {
+            width: 35%;
+            height: 100%;
+            /* border:2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .classType {
+            width:30%;
+            height: 100%;
+            /* border:2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .seatType {
+            width: 35%;
+            height: 100%;
+            /* border:2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .fromDetails {
+            width: 60%;;
+            height: 80%;
+            /* border:1px solid black; */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="div1">
+            <div class="div1-1">
+                <div class="div1-1-1">
+                    <img style="width:169px;height: 100%;" src="./sampleImages/irctcLogo.png" alt="">
+                </div>
+                <div class="div1-1-2">
+                    <div class="div1-1-2-1">
+                        <a class="anchor1" href="">Ask Disha</a>
+                        <a class="anchor1" href="">Contact us</a>
+                        <a class="anchor1" href="">Alerts</a>
+                    </div>
+                    <div class="div1-1-2-2">
+                        <button style="color:white;background-color: rgb(254, 184, 55);" class="button1">Login</button>
+                        <button style="background-color: white;" class="button1">Register</button>
+                        <button style="background-color: white;" class="button1">Agent Login</button>
+                    </div>
+                </div>
+            </div>
+            <div class="div1-2">
+                <p style="font-size: 40px;margin-bottom: 0px;"><b>Indian Railways</b></p>
+                <p style="margin-top: 10px;font-size:25px"><span style="color:green;margin-right: 15px;">Safety</span><span style="color:orange;margin-right: 15px;">Security</span><span style="color:black;margin-right: 15px;">Punctuality</span></p>
+            </div>
+            <div class="div1-3">
+                <div style="width:25%;height: 100%;background-color: rgb(73, 73, 150);display: flex;align-items: center;justify-content: center;border:1px solid black;border-radius: 5px;">
+                    <div><img style="width: 20px;height: 20px;" src="./sampleImages/bookTicket.svg" alt=""></div>
+                    <div style="font-size: 20px;margin-left: 10px;color:white;">BOOK Ticket</div>
+                </div>
+                <div style="width:25%;height: 100%;display: flex;align-items: center;justify-content: center;border:1px solid black;border-radius: 5px;">
+                    <div><img style="width: 20px;height: 20px;" src="./sampleImages/Tick.svg" alt=""></div>
+                    <div style="font-size: 20px;margin-left: 10px;">PNR Status</div>
+                </div>
+                <div style="width:25%;height: 100%;display: flex;align-items: center;justify-content: center;border:1px solid black;border-radius: 5px;">
+                    <div><img style="width: 20px;height: 20px;" src="./sampleImages/Charts.svg" alt=""></div>
+                    <div style="font-size: 20px;margin-left: 10px;">Charts/Vacancy</div>
+                </div>
+            </div>
+            <div class="route">
+                <div class="from">
+                    <div class="trainLogo"><img style="width:25px;height: 25px;" src="./sampleImages/trainSmallImg.svg" alt=""></div>
+                    <div class="fromDetails">
+                        <div style="display: flex;"> 
+                            <div>From </div>
+                           <div><img style ="width: 25px;height: 25px;" src="./sampleImages/expandArrow.svg" alt=""></div>
+                        </div>
+                        <h2 style="margin-top: 0;
+                        margin-bottom: 0px;">Bangalore</h2>
+                        <p style="margin-top: 0;">KSR - Bangalore</p>
+                    </div>
+                </div>
+                <div class="bidirectionalArrow">
+                    <img style="width: 40px;height: 40px;" src="./sampleImages/bidirectionalArrow.svg" alt="">
+                </div>
+                <div class="destination">
+                    <div class="trainLogo"><img style="width:25px;height: 25px;" src="./sampleImages/trainSmallImg.svg" alt=""></div>
+                    <div class="fromDetails">
+                        <div style="display: flex;"> 
+                            <div>To </div>
+                           <div><img style ="width: 25px;height: 25px;" src="./sampleImages/expandArrow.svg" alt=""></div>
+                        </div>
+                        <h2 style="margin-top: 0;
+                        margin-bottom: 0px;">Kasaragod</h2>
+                        <p style="margin-top: 0;">KSD - Kasaragod</p>
+                    </div>
+                </div>
+            </div>
+            <div class="time">
+                <div class="date">
+                    <div class="trainLogo" style="height: 80%;"><img style="width:25px;height: 25px;" src="./sampleImages/calenderIcon.svg" alt=""></div>
+                    <div class="fromDetails">
+                        <div style="display: flex;"> 
+                            <div>Date </div>
+                           <div><img style ="width: 25px;height: 25px;" src="sampleImages/expandArrow.svg" alt=""></div>
+                        </div>
+                        <h2 style="margin-top: 0;
+                        margin-bottom: 0px;">01 Aug 23</h2>
+                        <p style="margin-top: 0;">Tuesday</p>
+                    </div>
+                </div>
+                <div class="classType">
+                    <div class="trainLogo" style="height: 80%;"><img style="width:25px;height: 25px;" src="./sampleImages/classIcon.svg" alt=""></div>
+                    <div class="fromDetails">
+                        <div style="display: flex;"> 
+                            <div>Class</div>
+                           <div><img style ="width: 25px;height: 25px;" src="sampleImages/expandArrow.svg" alt=""></div>
+                        </div>
+                        <h2 style="margin-top: 0;
+                        margin-bottom: 0px;">3A</h2>
+                        <p style="margin-top: 0;">AC 3 Tier</p>
+                    </div>
+                </div>
+                <div class="seatType">
+                    <div class="trainLogo" style="height: 80%;"><img style="width:25px;height: 25px;" src="./sampleImages/seatTypeIcon.svg" alt=""></div>
+                    <div class="fromDetails">
+                        <div style="display: flex;"> 
+                            <div>Seat Type </div>
+                           <div><img style ="width: 25px;height: 25px;" src="sampleImages/expandArrow.svg" alt=""></div>
+                        </div>
+                        <h2 style="margin-top: 0;
+                        margin-bottom: 0px;">TATKAL</h2>
+                        <p style="margin-top: 0;">AC 3 Tier</p>
+                    </div>
+                </div>
+            </div>
+            <div class="searchTrainButton">
+                <div style="font-size: 28px;margin-right: 10px;color:white;"><b>Search Train</b></div>
+                <div><img style="width: 25px;height: 25px;" src="./sampleImages/ForwardArrow.svg" alt=""></div>
+            </div>
+        </div>
+        <div class="div2">
+            <img src="./sampleImages/trainImage.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+Q1) Describe the main difference between the CSS Flexbox layout model and the CSS Grid layout model. When would you choose to use one over the other?
+Ans1) Flexbox: The CSS Flexbox offers a one-dimensional layout. It is helpful in allocating and aligning the space among items in a container (made of grids). It works with all kinds of display devices and screen sizes.
+To get started you have to define a container element as a grid with display: flex;
+
+Grid:CSS Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning. Like tables, grid layout allow us to align elements into columns and rows.
+To get started you have to define a container element as a grid with display: grid, set the column and row sizes with grid-template-columns and grid-template-rows, and then place its child elements into the grid with grid-column and grid-row. 
+
+CSS Grid is better suited for creating two-dimensional layouts, while CSS Flexbox is better for one-dimensional designs
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2) Explain the role of following key properties in the Flexbox layout model
+i) Jusitfy-content
+ii) align-items
+iii) gap
+iv) flex-direction
+v) flex-wrap
+
+Ans2) (i) Justify-content:-The justify-content property is a sub-property of the Flexible Box Layout module. It defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size.
+justify-content: flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit;
+
+(ii) align-items:-The align-items property is related to CSS layout. It effects how elements are aligned both in Flexbox and Grid layouts.The align-items property defines the default behavior for how items are laid out along the cross axis (perpendicular to the main axis).
+align-items: normal|stretch|positional alignment|flex-start|flex-end|baseline|initial|inherit;
+
+(iii) gap:-The gap property defines the size of the gap between the rows and between the columns in flexbox, grid or multi-column layout. It is a shorthand for the following properties:row-gap, column-gap
+
+(iv) flex-wrap:-The flex-wrap property specifies whether the flexible items should wrap or not.
+flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
