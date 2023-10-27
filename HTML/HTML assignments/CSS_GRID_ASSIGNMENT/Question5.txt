@@ -1,0 +1,129 @@
+Q5) Explain the difference between justify-items and justify-self using code examples
+Ans5) The justify-items property is set on the grid container to give child elements (grid items) alignment in the inline direction.
+For this property to have any alignment effect, the grid items need available space around themselves in the inline direction.
+
+justify-items: legacy|normal|stretch|positional alignment|overflow-alignment|baseline alignment|initial|inherit;
+
+Value		Description	
+legacy-	Default value. Grid items with justify-self value 'auto' only inherits grid container justify-items property value if it starts with 'legacy'. It exists to implement the legacy alignment behavior of HTML's 〈center〉 element and align attribute.	
+normal-	Dependant on layout context, but similar to 'stretch' for grid layout	
+stretch-	Stretches to fill the grid cell if inline-size (width) is not set.	
+start-	Align items at the start in the inline direction	
+left-	Align items to the left	
+center-	Align items to the center	
+end-	Align items at the end in the inline direction	
+right-	Align items to the right	
+overflow-alignment	
+'safe' sets alignment of the item to 'start' if the content overflows
+'unsafe' keeps the alignment value regardless of wether or not the item content overflows
+
+Code example:-
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#container {
+  width: 50%;
+  aspect-ratio: 2/1;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+}
+#container > div {
+  border: 1px solid black;
+}
+.blue {
+  background-color: lightblue;
+  width: 50%;
+}
+.red {
+  background-color: coral;
+  width: 40%;
+}
+.green {
+  background-color: lightgreen;
+  width: 60%;
+}
+</style>
+</head>
+<body>
+<h2>justify-items: end</h2>
+<div id="container">
+  <div class="red">RED</div>
+  <div class="blue">BLUE</div>  
+  <div class="green">GREEN</div>
+  <div class="red">RED</div>
+</div>
+</body>
+</html>
+
+
+Justify self:- The justify-self property aligns a grid item within its grid cell in the inline direction.
+For this property to have any alignment effect, the grid item need available space around itself in the inline direction.
+
+CSS Syntax
+justify-self: auto|normal|stretch|positional alignment|overflow-alignment|baseline alignment|initial|inherit;
+
+Value	Description	
+auto	Default value. Grid container justify-self property value is inherited.	
+normal	Dependant on layout context, but similar to 'stretch' for grid layout for grid items when size is not set. If size is set, the property value behaves lik 'start'.	
+stretch	Stretches to fill the grid cell if inline-size (width) is not set.	
+start	Align items at the start in the inline direction	
+left	Align items to the left	
+center	Align items to the center	
+end	Align items at the end in the inline direction	
+right	Align items to the right	
+overflow-alignment	
+'safe' sets alignment of the item to 'start' if the content overflows
+'unsafe' keeps the alignment value regardless of wether or not the item content overflows
+baseline alignment	The element is aligned with the baseline of the parent.	
+initial	Sets this property to its default value. Read about initial	
+inherit	Inherits this property from its parent element. 
+
+Code example:-
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#container {
+  width: 70%;
+  aspect-ratio: 2/1;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#container > div {
+  border: 1px solid black;
+}
+.blue {
+  background-color: lightblue;
+  width: 60%;
+  justify-self: right;
+}
+.red {
+  background-color: coral;
+  width: 80%;
+}
+.green {
+  background-color: lightgreen;
+  width: 70%;
+}
+</style>
+</head>
+<body>
+<h2>justify-self: right</h2>
+<p>All grid items are aligned to the left by default, except for the blue grid item with justify-self property value 'right'.</p>
+<div id="container">
+  <div class="red">RED</div>
+  <div class="blue">BLUE<br>justify-self: right</div>  
+  <div class="green">GREEN</div>
+  <div class="red">RED</div>
+  <div class="green">GREEN</div>
+  <div class="red">RED</div>
+  <div class="green">GREEN</div>
+  <div class="red">RED</div>
+  <div class="green">GREEN</div>
+</div>
+</body>
+</html>

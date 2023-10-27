@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <style>
+        .grid-container {
+        display: grid;
+        grid-template-areas:
+            'Header Header Right_Upper'
+            'Left Middle_Upper Right_Lower'
+            'Left Middle_Lower Right_Lower';
+        gap: 10px;
+        /* background-color: #2196F3; */
+        padding: 0px;
+        }
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 0;
+  font-size: 30px;
+}
+        .item1 { grid-area: Header; height: 20vh; }
+        .item2 { grid-area: Right_Upper;height: 20vh; }
+        .item3 { grid-area: Left; height:40vh ; }
+        .item4 { grid-area: Middle_Upper;height:20vh ; }
+        .item5 { grid-area: Middle_Lower;height:19vh ; }
+        .item6 { grid-area: Right_Lower; height:40vh ;}
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1"><img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697932800&semt=sph" alt="natureImage1"></div>
+        <div class="item2"><img src="https://t4.ftcdn.net/jpg/06/06/89/91/360_F_606899189_2snQer28Ka7oAUQp65vraexOsaBnNWXb.jpg" alt=""></div>
+        <div class="item3"><img src="https://media.gettyimages.com/id/1371706512/photo/scientist-pipetting-sample-into-a-test-tube-at-medical-laboratory.jpg?s=612x612&w=gi&k=20&c=Qt9jRC24jWw2W0RGvXWvRXzehYQ_TY726JhLXAqpQDM=" alt=""></div>  
+        <div class="item4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5eYN2F1ewwrLWFrrg75mg5JjP4cFY89ZdJg&usqp=CAU" alt=""></div>
+        <div class="item5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDOnlf2ACPQHFfmAmOZlTJug9MSMYk_9UVA&usqp=CAU" alt=""></div>
+        <div class="item6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCWHr6ge5dtxCm5MosNb_AcbM87I_2HBYScw&usqp=CAU" alt=""></div>
+    </div>
+</body>
+</html>
