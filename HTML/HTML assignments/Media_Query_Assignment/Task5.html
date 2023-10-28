@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question5</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .mainContainer{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            /* background-color: #ad8c8c;       */
+            color: white;
+            text-align: center;              
+        }
+        .box1 {
+            width:10%;
+            height: 100vh;
+            background-color: #333131;
+            line-height: 2;
+            vertical-align: middle; 
+        }
+        .middleContainer {
+            width: 80%;
+            height: 100vh;
+        }
+        .box2{
+            width: 100%;
+            height: 50%;
+            background-color: #2fbb8f;
+            line-height: 2;
+        }
+        .box3{
+            width: 100%;
+            height: 50%;
+            background-color: #f8b75c;
+            line-height: 2;
+        }
+        .box4 {
+            width: 10%;
+            height: 100vh;
+            background-color: #333131;
+            line-height: 2;
+        }
+        @media screen and (max-width:768px) {
+            .mainContainer {
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                position: relative;
+            }
+            .middleContainer {
+                width: 100%;
+                height: 200px;
+            }
+            .box1 {
+                width: 100%;
+                height: 100px;
+                background-color: #333131;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .box2 {
+                width: 100%;
+                height: 100px;
+                background-color: #2fbb8f;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .box3 {
+                width: 100%;
+                height: 100px;
+                background-color: #f8b75c;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }           
+            .box4 {
+                width: 100%;
+                height: 100px;
+                background-color: #333131;
+                position: absolute;      
+                bottom:0px;     
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="box1">Box1</div>
+        <div class="middleContainer">
+            <div class="box2">Box2</div>
+            <div class="box3">Box3</div>
+        </div>        
+        <div class="box4">Box4</div>
+    </div>
+</body>
+</html>

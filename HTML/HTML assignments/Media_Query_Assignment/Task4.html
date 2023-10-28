@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question4</title>
+    <style>
+        .mainContainer{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: auto auto auto;
+            color: white;
+            text-align: center;
+            height: 100vh;
+        }
+        .container1 {
+            background-color: #ff2525;
+            height: 200px;
+            padding: 10px;
+        }
+        .container2 {
+            background-color: #2fa327;
+            height: 200px;
+            padding: 10px;
+        }
+        .container3 {
+            background-color: #4f36db;
+            height: 200px;
+            padding: 10px;
+        }
+        .container4 {
+            background-color: #f95316;
+            height: 200px;
+            padding: 10px;
+        }
+        @media  screen and (max-width:768px) {
+            .mainContainer{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: auto ;
+            color: white;
+            text-align: center;
+            height: 100vh;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="container1">Box1</div>
+        <div class="container2">Box2</div>
+        <div class="container3">Box3</div>
+        <div class="container4">Box4</div>
+    </div>
+</body>
+</html>
