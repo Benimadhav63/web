@@ -1,0 +1,31 @@
+li a {
+    color: red;
+}
+h2 {
+    color:rgb(232, 232, 239);
+    background-color: #6f5d5d;
+}
+div + p {
+    color: red;
+}
+a[href] {
+    color: red;
+    text-decoration: none;
+}
+a[class="active"] {
+    color:brown;
+    text-decoration: underline;
+}
+a[target="_self"] {
+    background-color: #f94d4d;
+}
+p:last-child::after { 
+    content: "...";
+}
+ul li {
+    color:rgb(55, 249, 120);
+}
+p:nth-child(2)::first-letter { 
+    color:rgb(106, 106, 164);
+    font-size: 30px;
+}
