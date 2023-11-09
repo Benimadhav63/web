@@ -110,4 +110,4 @@ In the pull request page, select the branch you created in your forked repositor
 Q6) Deploy Tailwind projects named Youtube, slack, and Gmail clones on GitHub pages and share the 
 deployed link of those three. Expected output - Live hosted URL Link of your deployed respective website with 
 GitHub pages.
-Ans)
+Ans) Gmail Clone link:- https://benimadhav63.github.io/web/
