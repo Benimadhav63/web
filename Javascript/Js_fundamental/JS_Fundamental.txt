@@ -1,0 +1,139 @@
+Q1) Explain what Javascript is and its role in web development
+Ans) JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.
+
+Role of JS in web development:- 
+Store useful values inside variables. In the above example for instance, we ask for a new name to be entered then store that name in a variable called name.
+Operations on pieces of text (known as "strings" in programming). In the above example we take the string "Player 1: " and join it to the name variable to create the complete text label, e.g. "Player 1: Chris".
+Running code in response to certain events occurring on a web page. We used a click event in our example above to detect when the label is clicked and then run the code that updates the text label.
+
+Q2) Explain the key differences between Javascript and HTML. Provide examples of situations where you would use each.
+Ans2) HTML (Hypertext Markup Language) is a markup language used for creating static web pages.	JavaScript is a programming language used for creating interactive and dynamic web pages.
+HTML is used to define the structure and content of a web page.	JavaScript is used to add interactivity, modify the content and styling of a web page, and handle user events.
+HTML is declarative and does not have the ability to perform logic or make decisions.	JavaScript is a scripting language and can perform logic, make decisions, and manipulate the HTML DOM.
+HTML consists of tags surrounded by angle brackets.	JavaScript is written in a script and uses syntax similar to other programming languages.
+
+HTML USES:-
+Web Pages Development
+Navigating the Internet
+Responsive Designs
+Storage Function in the Browser
+
+Javascript USES:-
+There are many diverse examples of JavaScript being utilized for a wide array of purposes. 
+JavaScript is at the forefront of the programming realm. Out of over 1.6 billion websites on the Internet, JavaScript is used in 95% of them.
+Common examples of JavaScript uses and applications include:
+Presentations
+Web Development
+Server Applications
+Web Applications
+Games
+Mobile Applications 
+
+
+Q3) List and describe the five primitive datatypes in javascript.
+Ans3) Five primitive JavaScript Datatypes are:-
+1. Number
+2. String
+3. Undefined
+4. Boolean
+5. Null
+
+1. Number: Number data type in javascript can be used to hold decimal values as well as values without decimals.
+// Numbers:
+let length = 16;
+let weight = 7.5;
+
+2. String: The string data type in javascript represents a sequence of characters that are surrounded by single or double quotes.
+// Strings:
+let color = "Yellow";
+let lastName = "Johnson";
+
+3. Undefined: The meaning of undefined is ‘value is not assigned’.
+let x;       // Now x is undefined
+
+4. Boolean: The boolean data type can accept only two values i.e. true and false.
+// Booleans
+let x = true;
+let y = false;
+
+5. Null: This data type can hold only one possible value that is null.
+let x=null   // Now x is null
+
+
+Q4) What is purpose of declaring variable in Javascript variables in Javascript, and how do you declare the variables using 'let' keyword.
+Ans4) Just like in algebra, we use variables in programming languages to hold values. JavaScript includes variables that are used to hold the data value and it can also be changed anytime.
+By declaring variables we specify what kind of value a variable can store. 
+Variables can be called as named containers. You can place data into these containers and then refer to the data simply by naming the container. It holds the reusable data and it is also called as the basic unit of storage in a program.
+
+The value stored in a variable can be changed during program execution.
+A variable is just a name given to a memory location. And all the operations done on the variable affects the memory location.
+The variables must be declared before they can be used in JavaScript.
+
+Let keyword:-
+Variables defined with let cannot be Redeclared
+Variables defined with let must be Declared before use
+Variables defined with let have Block Scope
+
+Variables defined with let can not be redeclared.
+
+You can not accidentally redeclare a variable declared with let.
+With let you can not do this:
+let x = "John Doe";
+let x = 0;
+
+{
+  let x = 2;
+}
+// x can NOT be used here
+
+
+Q5) Explain the importance of comments in javascript and provide examples of single line and multi line comments.
+Ans5) JavaScript comments can be used to explain JavaScript code, and to make it more readable.
+JavaScript comments can also be used to prevent execution, when testing alternative code.
+
+Single Line Comments:-
+Single line comments start with //.
+Any text between // and the end of the line will be ignored by JavaScript (will not be executed).
+This example uses a single-line comment before each code line:
+Example-
+// Change heading:
+document.getElementById("myH").innerHTML = "My First Page";
+
+// Change paragraph:
+document.getElementById("myP").innerHTML = "My first paragraph.";
+
+Multi Line Comments:-
+Multi-line comments start with /* and end with */.
+Any text between /* and */ will be ignored by JavaScript.
+This example uses a multi-line comment (a comment block) to explain the code:
+/*
+The code below will change
+the heading with id = "myH"
+and the paragraph with id = "myP"
+in my web page:
+*/
+document.getElementById("myH").innerHTML = "My First Page";
+document.getElementById("myP").innerHTML = "My first paragraph.";
+
+
+Q6) Explain the importance of choosing  meaningful and descriptive variable names in Javascript. Provide an example where using a clear identifier improves code readability.
+Ans6) The importance of variable naming in programming cannot be overstated. Choosing meaningful and descriptive names for variables is essential for several reasons:
+
+Readability and Understandability: Clear and meaningful variable names make your code more readable and understandable. When someone, including yourself, reads the code later on, descriptive variable names make it easier to comprehend the purpose and intent of the variable. It reduces confusion and helps in quickly grasping the logic and flow of the program.
+
+Maintainability and Debugging: Well-named variables facilitate code maintenance and debugging. If you or someone else needs to modify or fix a piece of code, having meaningful variable names makes it easier to identify which variables are involved and their purpose. This speeds up the debugging process and reduces the chances of introducing errors when making changes.
+
+Collaboration and Teamwork: When working in a team environment, using clear and consistent variable naming conventions becomes even more critical. It promotes effective collaboration by enabling team members to understand each other's code easily. It also reduces communication barriers and makes code reviews and discussions more efficient.
+
+Self-Documentation: Meaningful variable names act as self-documentation within your code. Instead of relying solely on comments to explain the purpose of a variable, a well-chosen name can convey important details about the data it represents or the role it plays in the program. This makes the code more self-explanatory and reduces the need for excessive comments.
+
+Code Reusability: Good variable naming practices contribute to code reusability. When you name variables based on their purpose rather than their specific values, it becomes easier to reuse the code in different contexts. By avoiding hard-coded or context-specific names, you can create more flexible and adaptable code.
+
+example where using a clear identifier improves code readability:-
+function changeStudentLabelText(studentId){                  
+     const studentNameLabel = getStudentName(studentId); 
+}
+function getStudentName(studentId){ 
+     const student = api.getStudentById(studentId); 
+     return student.name; 
+}
