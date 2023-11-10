@@ -14,3 +14,4 @@ console.log(num1 + result2);
 let age = prompt("Enter your age:");
 let result1= (age>=18) ? "You can vote" : "You cannot vote";
 console.log(result1);
+

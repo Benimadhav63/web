@@ -1,0 +1,374 @@
+Q1) Explain the role of operators in JavaScript. Why are they essential in programming?
+Ans1) JavaScript operators operate the operands, these are symbols that are used to manipulate a certain value or operand. Operators are used to performing specific mathematical and logical computations on operands.
+In JavaScript, operators are essential used to compare values, perform arithmetic operations, etc.
+Operators are essential for performing computations, making decisions, and manipulating data in programming. They enable us to perform mathematical calculations, concatenate strings, compare values, control program flow, and handle complex operations. By using operators effectively, we can write powerful and efficient code that solves a wide range of problems.
+
+Understanding JavaScript operators is fundamental to becoming proficient in the language. By mastering these operators, you’ll have the ability to manipulate data, perform calculations, make decisions, and create powerful programs. So, let’s dive into the world of JavaScript operators and explore their vast potential.
+
+
+
+Q2) Describe the categorization of operators in JavaScript based on their functionality. Provide examples for 
+each category.
+Ans2) Based on the types of operations these JS operators perform, we can divide them up into seven groups:-
+
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+Logical Operators
+Ternary Operators
+The typeof Operator
+Bitwise Operators
+
+Arithmetic operators:-
+In JavaScript, we have 8 arithmetic operators in total. They are:-
+
+Addition +
+Subtraction -
+Multiplication *
+Division /
+Remainder %
+Exponentiation **
+Increment ++
+Decrement --
+
+1. Addition operator
+The addition operator + is used to add two or more numbers together. You've seen how this operator works previously, but here's another example:
+console.log(7 + 2); // 9
+console.log(2.3 + 1.5); // 3.8
+
+2. Subtraction operator
+The subtraction operator is marked by the minus sign − and you can use it to subtract the right operand from the left operand.
+For example, here's how to subtract 3 from 5:
+let x = 5;
+let y = 3;
+console.log(x - y); // 2
+
+3. Multiplication operator
+The multiplication operator is marked by the asterisk * symbol, and you use it to multiply the value on the left by the value on the right of the operator.
+console.log(5 * 2); // 10
+console.log(3 * 3); // 9
+
+4. Division operator
+The division operator / is used to divide the left operand by the right operand. Here are some examples of using the operator:
+console.log(10 / 2); // 5
+console.log(9 / 3); // 3
+
+5. Remainder operator
+The remainder operator % is also known as the modulo or modulus operator. This operator is used to calculate the remainder after a division has been performed.
+A practical example should make this operator easier to understand, so let's see one:
+console.log(10 % 3);
+
+6. Exponentiation operator
+The exponentiation operator is marked by two asterisks **. It's one of the newer JavaScript operators and you can use it to calculate the power of a number (based on its exponent).
+For example, here's how to calculate 10 to the power of 3:
+console.log(10 ** 3); // 1000
+
+7. Increment operator
+The increment ++ operator is used to increase the value of a number by one. For example:
+let x = 5;
+x++;
+console.log(x); // 6
+
+8. Decrement operator
+The decrement -- operator is used to decrease the value of a number by one. It's the opposite of the increment operator:
+let x = 5;
+x--;
+console.log(x); // 4
+
+
+Assignment Operator:-
+There are 7 kinds of assignment operators that you can use in JavaScript:
+NAME	OPERATION EXAMPLE	MEANING
+Assignment	x = y	x = y
+Addition assignment	x += y	x = x + y
+Subtraction assignment	x -= y	x = x - y
+Multiplication assignment	x *= y	x = x * y
+Division assignment	x /= y	x = x / y
+Remainder assignment	x %= y	x = x % y
+Exponentiation assignment	x **= y	x = x ** y
+
+Comparison Operators:-
+There are 8 kinds of comparison operators available in JavaScript:
+NAME	OPERATION EXAMPLE	MEANING
+Equal	x == y	Returns true if the operands are equal
+Not equal	x != y	Returns true if the operands are not equal
+Strict equal	x === y	Returns true if the operands are equal and have the same type
+Strict not equal	x !== y	Returns true if the operands are not equal, or have different types
+Greater than	x > y	Returns true if the left operand is greater than the right operand
+Greater than or equal	x >= y	Returns true if the left operand is greater than or equal to the right operand
+Less than	x < y	Returns true if the left operand is less than the right operand
+Less than or equal	x <= y	Returns true if the left operand is less than or equal to the right operand
+
+Logical Operators
+Logical operators are used to check whether one or more expressions result in either true or false.
+There are three logical operators available in JavaScript:
+NAME	OPERATION EXAMPLE	MEANING
+Logical AND	x && y	Returns true if all operands are true, else returns false
+Logical OR	x || y	Returns true if one of the operands is true, else returns false
+Logical NOT	!x	Reverse the result: returns true if false and vice versa
+
+Ternary Operator
+The ternary operator (also called the conditional operator) is the only JavaScipt operator that requires 3 operands to run.
+The syntax for the ternary operator is condition ? expression1 : expression2.
+
+The typeof Operator
+The typeof operator is the only operator that's not represented by symbols. This operator is used to check the data type of the value you placed on the right side of the operator.
+
+Bitwise Operators
+Bitwise operators are operators that treat their operands as a set of binary digits, but return the result of the operation as a decimal value.
+These operators are rarely used in web development, so you can skip this part if you only want to learn practical stuff. But if you're interested to know how they work, then let me show you an example.
+
+
+Q3) Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+Ans3) Unary Operator:-
+These operators require one operand for operation. Providing two or more can result in a syntax error. Here are some examples of operators that fall under this category.
+
+the typeof operator
+The typeof operator returns the data type of a value. It requires only one operand. Here's an example:
+
+typeof "hello"
+// string
+If you pass two operands to it, you'd get an error:
+
+typeof "hello" 50
+// Uncaught SyntaxError: Unexpected number
+The delete operator
+You can use the delete operator to delete an item in an array or delete a property in an object. It's a unary operator that requires only one operand. Here's an example with an array:
+
+const array = [2,3,4]
+delete array[2]
+
+console.log(array)
+// [ 2, 3, <empty> ]
+Note that deleting items from an array with the delete operator is not the right way to do this. I explained why in this article here
+
+And here's an example with an object:
+
+const object = {
+  name: "deeecode",
+  age: 50
+}
+delete object.age
+
+console.log(object)
+// { name: 'deeecode' }
+The Unary plus + operator
+This operator is not to be confused with the arithmetic plus operator which I will explain later in this article. The unary plus operator attempts to convert a non-number value to a number. It returns NaN where impossible. Here's an example:
+
++"200"
+// 20 - number
+
++false
+// 0 - number representation
+
++"hello"
+// NaN
+As you can see here again, only one operand is required, which comes after the operator.
+
+Binary Operator:-
+These operators require two operands for operation. If one or more than two operands are provided, such operators result in a syntax error.
+Let's look at some operators that fall under this category
+
+Arithmetic Operators
+All arithmetic operators are binary operators. You have the first operand on the left of the operator, and the second operand on the right of the operator. Here are some examples:
+
+10 + 20
+// 30
+
+20 - 5
+// 15
+
+30 / 6
+// 5
+If you don't provide two operands, you will get a syntax error. For example:
+
+10 +
+// SyntaxError: Unexpected end of input
+Comparison Operators
+All comparison operators also require two operands. Here are some examples:
+
+80 < 20
+// false
+
+10 < 40
+// true
+
+2 >= 2
+// true
+Assignment Operator =
+The assignment operator is also a binary operator as it requires two operands. For example:
+
+const number = 20
+On the left, you have the first operand, the variable (const number), and on the right, you have the second operand, the value (20).
+
+You're probably asking: "isn't const number two operands?". Well, const and number makes up one operand. The reason for this is const defines the behavior of number. The assignment operator = does not need const. So you can actually use the operator like this:
+
+number = 20
+
+Ternary Operator:-
+These operators require three operands. In JavaScript, there is one operator that falls under this category – the conditional operator. In other languages, perhaps, there could be more examples.
+
+The Conditional Operator ? ... :
+The conditional operator requires three operands:
+
+the conditional expression
+the truthy expression which gets evaluated if the condition is true
+the falsy expression which gets evaluated if the condition is false.
+You can learn more about the Conditional Operator here
+
+Here's an example of how it works:
+
+const score = 80
+const scoreRating = score > 50 ? "Good" : "Poor"
+
+// "Good"
+The first operand – the conditional expression – is score > 50.
+
+The second operand – the truthy expression – is "Good", which will be returned to the variable scoreRating if the condition is true.
+
+The third operand – the falsy expression – is "Poor", which will be returned to the variable scoreRating if the condition is false.
+
+
+Q4)  Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts 
+important?
+Ans4) Operator precedence and associativity are essential concepts that help us understand how to evaluate expressions containing multiple operations. JavaScript defines certain rules and assigns priorities to all the operators in order to determine the sequence of executing these operations in an expression.
+
+Operator Precedence in JavaScript:-
+Operator precedence in JavaScript determines the order of execution of each individual operation in an arithmetic calculation or expression.
+
+A statement or an expression in any programming language could involve some arithmetic calculations with more than one operation. For instance, consider the following statement:
+
+5+3*20
+
+It has two operators (+ and * respectively), and in order to evaluate the final result, you need to perform these two operations.
+
+You can either perform the addition operation first, followed by the multiplication operation.
+
+(5+3)*20 => (8)*20 => 160
+
+Or you can do it the other way round by performing the multiplication first, followed by the addition operation.
+
+5+(3*20) => 5+(60) => 65
+
+In both cases, you will get different results due to the order in which each operation is executed. So how do you determine the correct sequence of operations to produce consistent results in any arithmetic calculation?
+
+That's the ambiguity operator precedence in JavaScript aims to solve. It assigns different priority levels to each operator. Based on this priority level or precedence of operators, the sequence or the order of execution of each operation within a statement is determined.
+
+
+Precedence Level for Common Operators
+Let's have a look at the precedence level that JavaScript has defined for some common arithmetic operations.
+
+Note that precedence level varies from 1 to 19. The general rule is that an operator that has a lower precedence level is given higher priority and is said to have higher precedence than the one having a higher precedence level. You can interpret precedence level as rank in priority level of each operator.
+
+Operation	Operator	Precedence Level	Associativity
+Division	/	3	Left to Right
+Multiplication	*	3	Left to Right
+Modulus	%	3	Left to Right
+Addition	+	4	Left to Right
+Subtraction	-	4	Left to Right
+Assignment	=	14	Right to left
+Exponentiation	**	14	Right to left
+So if we look at the above table, multiplication will have higher precedence than addition. Similarly, the division will have higher precedence than subtraction. However, addition and subtraction have the same precedence. Similarly, multiplication and division also have the same precedence.
+
+This should help us through some examples we'll explore now, but later we will also have a look at an exhaustive table of precedence levels for all the operators used in JavaScript.
+
+We also have a column for associativity. So let's understand what it means.
+
+Associativity
+In some situations, JavaScript Operator Precedence alone cannot resolve all ambiguity to yield consistent results of expressions.
+
+Associativity defines the direction to be followed when executing the operations in a statement. It comes into the picture when statements contain operators that have the same precedence. In order to understand completely why associativity is even needed in the first place, let's take a look at the following example.
+
+Need for Associativity
+Consider the below expression.
+
+ 8/4*2 
+
+We know both multiplication and division have the same precedence.
+
+So how should you evaluate the expression from the left side, i.e., do you perform division first?
+
+ 8/4*2 => (8/4)*2 => 2*2 = 4
+
+In that case, as you can see, the output would be 4.
+
+But if you evaluate the expression from the right side, ie, perform multiplication first and then division:
+
+ 8/4*2 => 8/(4*2) => 8/8 = 1
+
+The output would be 1. Since we get different outputs in both cases, we need the rule to resolve this ambiguity. That's exactly where associativity comes in.
+
+Left to Right Associativity
+The associativity of an operator describes the direction in which the operations would get executed within a statement.
+
+As we'll see later in the post, both multiplication and division operators in JavaScript have left to right associativity. This means that in the above example, we'll evaluate the result of the division followed by multiplication.
+
+ 8/4*2 => (8/4)*2 => 2*2 => 4  //Left->Right
+
+Right to Left Associativity
+In contrast to the left to right associativity, some operators may have right to left associativity.
+
+In the table we saw earlier, the assignment operation had the right to left associativity. Let's consider the following example where a value is assigned to three variables.
+
+x=y=z=25
+
+Since the assignment follows right to left associativity, 25 is first assigned to the variable z. Then, the value of variable z (i.e., now 25) is assigned to variable y. Finally, the value of variable y, which is now 25, is assigned to variable x. Here's how the right to left associativity will break down the above statement:
+
+z=25 //value 25 is assigned to variable z
+y=z  //z now holds a value, which is assigned to y
+x=y  //y now holds a value, which is assigned to x
+
+It's simple to look at the above statement and conclude that we're only assigning the same value to three variables x, y, and z. However, it's imperative to understand how the assignment is actually happening.
+
+If you think the result would be the same even if we evaluate the expression from left to right, think again!
+
+Let's say we evaluate the expression from the left side first. Here's how we'll break the statement down:
+
+x=y 
+
+First, the value of y will be assigned to x. But since y doesn't have a value yet, x will get undefined.
+
+y=z 
+
+Similarly, y will also get undefined in the next step since z also doesn't have any value yet.
+
+z=25
+
+Finally, z will be assigned a value 25. But at the end, both x and y will have the value undefined in contrast to the right to left evaluation, where both had a value 25.
+
+
+Q5)  Write a JavaScript program that calculates the simple interest using the formula Simple interest = 
+(principal * rate * time) / 100.
+Ans5)
+Simple Interest program:- 
+const prompt = require('prompt-sync')();
+let principal= prompt("Enter the principal");
+let rate= prompt("Enter the rate");
+let time= prompt("Enter the time");
+let simpleInterest = (principal*rate*time)/100;
+console.log(simpleInterest);
+
+Q6)  Write a Javascript program to calculate the Body Mass Index (BMI) using the formula BMI = weight (kg)/
+height * height.
+Ans6) 
+
+Body Mass Index:-
+const prompt = require('prompt-sync')();
+let weight= prompt("Enter your weight");
+let height= prompt("Enter your height");
+let bmi= weight/(height*height);
+console.log(bmi);
+
+
+Q7)  Write a program in JavaScript to calculate the area of a circle given its radius value of 10. Use appropriate 
+arithmetic operators.
+Ans7)  
+
+Area of circle:-
+const prompt = require('prompt-sync')();
+let pi=3.14;
+let radius= prompt("Enter the radius of circle");
+let area= pi*radius*radius;
+console.log(area);
+
+
