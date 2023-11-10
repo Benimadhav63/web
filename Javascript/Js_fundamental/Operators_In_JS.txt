@@ -1,0 +1,50 @@
+Q1) Explain the usage of ternary operator with syntax and write a program to check whether the number is even or odd using the ternary operator
+Ans1) Ternary Operator: The “Question mark” or “conditional” operator in JavaScript is a ternary operator that has three operands. It is the simplified operator of if/else.
+
+Program:-
+const prompt = require('prompt-sync')();
+let num = prompt("Enter a number:");
+let result = (num%2==0) ? " is even" : " is odd";
+console.log(num + result);
+
+
+Q2) Describe the usage of the comma operator in JavaScript and provide an example. 
+Ans2) JavaScript Comma Operator:- Comma Operator (,) mainly evaluates its operands from left to right sequentially and returns the value of the rightmost operand. A comma operator is used as a separator for multiple expressions at a place that requires a single expression. When a comma operator is placed in an expression, it executes each expression and returns the rightmost expression.
+Syntax:
+Expression1, Expression2, Expression3, ...so on
+In the above syntax, multiple expressions are separated using a comma operator. During execution, each expression will be executed from left to right and the rightmost expression will be returned.
+
+Example 1: Below is an example of the Comma operator.
+
+function Func1() { 
+    console.log('one'); 
+    return 'one'; 
+} 
+function Func2() { 
+    console.log('two'); 
+    return 'two'; 
+} 
+function Func3() { 
+    console.log('three'); 
+    return 'three'; 
+}   
+// Three expressions are 
+// given at one place 
+let x = (Func1(), Func2(), Func3());   
+console.log(x);
+
+Q3) Use a nested ternary operator to check that a number is positive, negative or zero. You have to print 
+“positive” if the number is positive and similarly for negative and zero also.
+
+Ans3) Program:- 
+let num = prompt("Enter a number:");
+let result= (num==0) ? " is zero" : num>0 ? " is positive" : " is negative";
+console.log(num + result);
+
+
+Q4) Use a ternary operator to check that a person is eligible to vote or not by checking his age. If the age of the 
+person is less than 18 then “You cannot vote” should be logged else “You can vote” should be logged.
+Ans4) Program:- 
+let age = prompt("Enter your age:");
+let result1= (age>=18) ? "You can vote" : "You cannot vote";
+console.log(result1); 
